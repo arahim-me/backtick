@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "ARTIFICIAL INTELIGENCE",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/enterprise.png"
+    },
+    {
+        "id": "2",
+        "name": "BIG DATA & DATA SCIENCE",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/startup.png"
+    },
+    {
+        "id": "3",
+        "name": "BLOCKCHAIN SOLUTION",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/internet.png"
+    },
+    {
+        "id": "4",
+        "name": "MACHINE LERNING",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/mobile.png"
+    }
+]

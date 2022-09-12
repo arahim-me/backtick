@@ -1,0 +1,9 @@
+.header{
+    background-image: url("https://arahim-me.github.io/backtick-data/assets/img/bg.jpg");
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+}

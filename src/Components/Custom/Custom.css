@@ -1,0 +1,13 @@
+.desc{
+    max-width: 768px;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    max-width: 310px;
+    padding: 0;
+}

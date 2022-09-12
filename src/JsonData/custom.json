@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "ENTERPRISE APLICATION",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/enterprise.png"
+    },
+    {
+        "id": "2",
+        "name": "STARTUP SOLUTION",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/startup.png"
+    },
+    {
+        "id": "3",
+        "name": "INTERNET OF THINGS",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/internet.png"
+    },
+    {
+        "id": "4",
+        "name": "MOBILE APPLICATION",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/mobile.png"
+    },
+    {
+        "id": "5",
+        "name": "SAAS DEVELOPMENT",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/saas.png"
+    },
+    {
+        "id": "6",
+        "name": "B2B & B2C E-COMMERCE",
+        "title": "Enterprice Of Things",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/b2b.png"
+    }
+]

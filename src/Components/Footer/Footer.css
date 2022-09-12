@@ -1,0 +1,13 @@
+footer{
+    margin: 0;
+    padding: 2rem 0;
+    color: #fff;
+}
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info .info{
+    max-width: fit-content;
+}
