@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "condition": "SWe're ready to sign NDA agreement",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/contract-white.png"
+    },
+    {
+        "id": "2",
+        "condition": "SRFP analiysis is absolutely free",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/analysis.png"
+    },
+    {
+        "id": "3",
+        "condition": "We will respond to you within 24 hours",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/hours.png"
+    }
+]

@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.css';
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-success py-3">
+        <nav className="navbar navbar-expand-lg navbar-dark py-3">
             <div className="container container-fluid">
                 <a className="navbar-brand" href=""><img className="img-fluid" width="200px" src="https://raw.githubusercontent.com/arahim-me/backtick-db/main/logo/logo.png"/></a>
                 <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

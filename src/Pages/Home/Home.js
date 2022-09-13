@@ -1,4 +1,6 @@
 import React from 'react';
+import About from '../../Components/About/About';
+import Contacts from '../../Components/Contacts/Contacts';
 import Custom from '../../Components/Custom/Custom';
 import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
@@ -13,6 +15,8 @@ const Home = () => {
             <Custom></Custom>
             <Subscribe></Subscribe>
             <Technologies></Technologies>
+            <About></About>
+            <Contacts></Contacts>
             <Footer></Footer>
         </div>
     );

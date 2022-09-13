@@ -1,9 +1,26 @@
 .header{
-    background-image: url("https://arahim-me.github.io/backtick-data/assets/img/bg.jpg");
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 1%, 0.5)), url("https://raw.githubusercontent.com/arahim-me/backtick-db/main/img/bg.jpg");
     height: 50vh;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #000;
+    background-attachment: scroll;
+}
+.header .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;;
+    height: 100%;
+}
+.header .btn-solution{
+    border: 1px solid #fbb213;
+    padding: 10px 25px;
+    color: #fff;
+}
+.header .btn-solution:hover{
+    border: 1px solid #fbb213;
+    background: #fbb213;
+    color: #000;
 }

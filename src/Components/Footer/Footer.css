@@ -11,3 +11,8 @@ footer{
 .footer-info .info{
     max-width: fit-content;
 }
+.schedule{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
