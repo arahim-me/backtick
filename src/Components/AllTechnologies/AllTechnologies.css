@@ -1,0 +1,13 @@
+.allTechnologies{
+    background: #046795;
+}
+.allTechnologies .language{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.allTechnologies .language img{
+    max-width: 100px;
+}

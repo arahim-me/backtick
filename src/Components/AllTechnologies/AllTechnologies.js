@@ -1,13 +1,13 @@
 import React from 'react';
-import './About.css';
-import Ratings from '../../Data/rating.json';
+import './AllTechnologies.css';
+import Techno from '../../Data/AllTechnologies.json';
 
-const About = () => {
+const AllTechnologies = () => {
     return (
-        <div className='aboutUs'>
+        <div className='allTechnologies text-center py-4 text-white'>
             <div className='container py-4'>
                 <div className='title'>
-                    <h2 className='text-uppercase text-center'>Who we are</h2>
+                    <h2 className='text-uppercase text-center'>technologies we use</h2>
                 </div>
                 <div className='after-shadow'></div>
                 <div className='desc'>
@@ -16,12 +16,11 @@ const About = () => {
                 <div className='ratings'>
 
                     {
-                        Ratings.map(rating => {
+                        Techno.map(lang => {
                             return (
-                                <div className='rating'>
-                                    <img src={rating.img} className='img-fluid' />
-                                    <h4 className='text-uppercase'>{rating.percentage}</h4>
-                                    <h6 className='text-uppercase'>{rating.name}</h6>
+                                <div className='language m-2'>
+                                    <img src={lang.img} className='img-fluid mb-2'/>                                    
+                                    <h6 className='text-uppercase'>{lang.name}</h6>
                                 </div>
                             )
                         })
@@ -29,9 +28,8 @@ const About = () => {
 
                 </div>
             </div>
-            <hr></hr>
         </div>
     );
 };
 
-export default About;
+export default AllTechnologies;

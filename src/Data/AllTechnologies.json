@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "name": "HTML",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/technologies/html-5.png"
+    },
+    {
+        "id": "1",
+        "name": "CSS",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/technologies/css.png"
+    },
+    {
+        "id": "1",
+        "name": "BOOTSTRAP",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/technologies/bootstrap.png"
+    },
+    {
+        "id": "1",
+        "name": "JAVASCRIPT",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/technologies/javascript.png"
+    },
+    {
+        "id": "1",
+        "name": "PHP",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/technologies/php.png"
+    },
+    {
+        "id": "1",
+        "name": "REACTJS",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/technologies/reactjs.png"
+    },
+    {
+        "id": "1",
+        "name": "AngularJs",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/technologies/angularjs.png"
+    },
+    {
+        "id": "1",
+        "name": "MONGODB",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/technologies/mongodb.png"
+    },
+    {
+        "id": "1",
+        "name": "MYSQL-DB",
+        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/technologies/database.png"
+    }
+]

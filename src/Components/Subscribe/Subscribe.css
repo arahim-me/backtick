@@ -20,8 +20,7 @@ input{
 .subscribe-section .input-text{
     background-color: #fff;
     border-radius: 0.3rem;
-    max-width: 425px;
-    display: block;
+    width: 100%;
     margin: 1rem;
 }
 .subscribe-section .input-text input{

@@ -1,5 +1,5 @@
 import React from 'react';
-import Technology from '../../JsonData/technologies.json';
+import Technology from '../../Data/technologies.json';
 
 const Technologies = () => {
     return (

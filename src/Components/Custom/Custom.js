@@ -1,6 +1,6 @@
 import React from 'react';
 import './Custom.css'
-import CustomThings from '../../JsonData/custom.json';
+import CustomThings from '../../Data/custom.json';
 
 const Custom = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../../Components/About/About';
+import AllTechnologies from '../../Components/AllTechnologies/AllTechnologies';
 import Contacts from '../../Components/Contacts/Contacts';
 import Custom from '../../Components/Custom/Custom';
 import Footer from '../../Components/Footer/Footer';
@@ -15,6 +16,7 @@ const Home = () => {
             <Custom></Custom>
             <Subscribe></Subscribe>
             <Technologies></Technologies>
+            <AllTechnologies></AllTechnologies>
             <About></About>
             <Contacts></Contacts>
             <Footer></Footer>

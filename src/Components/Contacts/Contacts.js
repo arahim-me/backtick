@@ -1,5 +1,5 @@
 import React from 'react';
-import Conditions from '../../JsonData/conditions.json';
+import Conditions from '../../Data/conditions.json';
 import './Contacts.css'
 
 const Contacts = () => {
