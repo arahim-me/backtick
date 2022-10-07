@@ -22,9 +22,12 @@ input{
     border-radius: 0.3rem;
     width: 100%;
     margin: 1rem;
+    padding: 0;
 }
 .subscribe-section .input-text input{
     width: 100%;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
 }
 .subscribe-section .checkbox{    
     display: flex;

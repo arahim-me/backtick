@@ -14,11 +14,11 @@ const Technologies = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum necessitatibus enim animi explicabo vel non repellendus facere cumque at quas ipsum aut mollitia illum qui modi culpa velit obcaecati, placeat aperiam, temporibus aliquid officia ipsam. Illo assumenda perferendis vero excepturi, repudiandae natus voluptate provident consequuntur nulla nobis magni rerum, a doloribus repellat sapiente sunt ex voluptas maiores, beatae iure.</p>
                     </div>
                 </div>
-            <div className='d-flex flex-wrap cards'>                
+            <div className='row cards'>                
                 {
                     Technology.map(tech => {
                         return (
-                            <div className="card m-3 p-3">
+                            <div className="card col-sm-12 m-3 p-3">
                                 <img className="card-img-top w-50 mx-auto" src={tech.img} alt="Card image cap" />
                                 <div className="card-body">
                                     <h5 className="card-title">{tech.name}</h5>
