@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './About.css';
 import Ratings from '../../Data/rating.json';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const About = () => {
+    useEffect(()=>{
+        Aos.init({ duration: 2000});
+    },[]);
     return (
-        <div className='aboutUs'>
+        <div data-aos="fade-up" className='aboutUs'>
             <div className='container py-4'>
                 <div className='title'>
                     <h2 className='text-uppercase text-center'>Who we are</h2>

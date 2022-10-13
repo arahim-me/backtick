@@ -3,7 +3,7 @@ import './Subscribe.css'
 
 const Subscribe = () => {
     return (
-        <div className='subscribe-section'>
+        <div data-aos='fade-up' className='subscribe-section'>
             <div className='container'>
                 <div className='inner-subscribe'>
                     <h4 className='text-uppercase text-center text-white my-3'>Let's describe your projects</h4>

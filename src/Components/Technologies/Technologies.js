@@ -3,7 +3,7 @@ import Technology from '../../Data/technologies.json';
 
 const Technologies = () => {
     return (
-        <div>
+        <div data-aos="fade-up">
             <div className='container my-4'>
             <div>
                     <div className='title text-center'>

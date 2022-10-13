@@ -1,10 +1,10 @@
 import React from 'react';
 import Conditions from '../../Data/conditions.json';
-import './Contacts.css'
+import './Contacts.css';
 
 const Contacts = () => {
     return (
-        <div className='contacts py-4'>
+        <div data-aos="fade-up" className='contacts py-4'>
             <div className='container my-4'>
                 <div className='title'>
                     <h2 className='text-uppercase text-center'>Contact Us</h2>

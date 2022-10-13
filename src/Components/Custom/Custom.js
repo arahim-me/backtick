@@ -4,7 +4,7 @@ import CustomThings from '../../Data/custom.json';
 
 const Custom = () => {
     return (
-        <div className='container my-4'>
+        <div data-aos='fade-up' className='container my-4'>
             <div>
                     <div className='title text-center'>
                         <h2>Custom Things We Do</h2>

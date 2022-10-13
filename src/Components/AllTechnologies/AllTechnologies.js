@@ -1,10 +1,10 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './AllTechnologies.css';
 import Techno from '../../Data/AllTechnologies.json';
 
 const AllTechnologies = () => {
     return (
-        <div className='allTechnologies text-center py-4 text-white'>
+        <div data-aos="fade-up" className='allTechnologies text-center py-4 text-white'>
             <div className='container py-4'>
                 <div className='title'>
                     <h2 className='text-uppercase text-center'>technologies we use</h2>
