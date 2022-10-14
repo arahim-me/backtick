@@ -24,3 +24,11 @@
     background: #fbb213;
     color: #000;
 }
+@media only screen and (max-width: 480px) {
+    .header-title{
+        margin-bottom: 2.5rem;
+    }
+    .header-desc {
+      display: none;
+    }
+  }
