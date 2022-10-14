@@ -18,11 +18,11 @@ const Technologies = () => {
                 {
                     Technology.map(tech => {
                         return (
-                            <div className="card col-sm-12 m-3 p-3">
-                                <img className="card-img-top w-50 mx-auto" src={tech.img} alt="Card image cap" />
+                            <div data-aos='flip-left' className="card col-sm-12 m-3 p-3">
+                                <img data-aos='fade-left' className="card-img-top w-50 mx-auto" src={tech.img} alt="Card image cap" />
                                 <div className="card-body">
-                                    <h5 className="card-title">{tech.name}</h5>
-                                    <p className="card-text">{tech.description}</p>
+                                    <h5 data-aos='fade-right' className="card-title">{tech.name}</h5>
+                                    <p data-aos='fade-left' className="card-text">{tech.description}</p>
                                 </div>
                             </div>
                         )

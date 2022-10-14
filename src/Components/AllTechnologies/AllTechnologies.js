@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import './AllTechnologies.css';
 import Techno from '../../Data/AllTechnologies.json';
 
@@ -19,8 +19,8 @@ const AllTechnologies = () => {
                         Techno.map(lang => {
                             return (
                                 <div className='language m-2'>
-                                    <img src={lang.img} className='img-fluid mb-2'/>                                    
-                                    <h6 className='text-uppercase'>{lang.name}</h6>
+                                    <img data-aos='fade-right' src={lang.img} className='img-fluid mb-2'/>                                    
+                                    <h6 data-aos='fade-left' className='text-uppercase'>{lang.name}</h6>
                                 </div>
                             )
                         })

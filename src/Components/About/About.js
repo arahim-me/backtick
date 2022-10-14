@@ -1,12 +1,7 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './About.css';
 import Ratings from '../../Data/rating.json';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 const About = () => {
-    useEffect(()=>{
-        Aos.init({ duration: 2000});
-    },[]);
     return (
         <div data-aos="fade-up" className='aboutUs'>
             <div className='container py-4'>
@@ -22,10 +17,10 @@ const About = () => {
                     {
                         Ratings.map(rating => {
                             return (
-                                <div className='rating'>
-                                    <img src={rating.img} className='img-fluid' />
-                                    <h4 className='text-uppercase'>{rating.percentage}</h4>
-                                    <h6 className='text-uppercase'>{rating.name}</h6>
+                                <div data-aos='fade-up' className='rating'>
+                                    <img data-aos='flip-right' src={rating.img} className='img-fluid' />
+                                    <h4 data-aos='fade-left' className='text-uppercase'>{rating.percentage}</h4>
+                                    <h6 data-aos='fade-right' className='text-uppercase'>{rating.name}</h6>
                                 </div>
                             )
                         })

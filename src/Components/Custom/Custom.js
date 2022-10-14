@@ -18,11 +18,11 @@ const Custom = () => {
                 {
                     CustomThings.map(custom => {
                         return (
-                            <div className="card m-3 p-3">
-                                <img className="card-img-top w-50 mx-auto" src={custom.img} alt="Card image cap" />
+                            <div data-aos='fade-up' className="card m-3 p-3">
+                                <img data-aos='flip-right' className="card-img-top w-50 mx-auto" src={custom.img} alt="Card image cap" />
                                 <div className="card-body">
-                                    <h5 className="card-title">{custom.name}</h5>
-                                    <p className="card-text">{custom.description}</p>
+                                    <h5 data-aos='fade-right' className="card-title">{custom.name}</h5>
+                                    <p data-aos='fade-left' className="card-text">{custom.description}</p>
                                 </div>
                             </div>
                         )

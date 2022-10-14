@@ -17,7 +17,7 @@ const Contacts = () => {
                     {
                         Conditions.map(condition => {
                             return (
-                                <div className='condition'>
+                                <div data-aos='flip-left' className='condition'>
                                     <img className='img-fluid m-1' src={condition.img} />
                                     <h6 className='m-1'>{condition.condition}</h6>
                                 </div>
@@ -25,7 +25,7 @@ const Contacts = () => {
                         })
                     }
                 </div>
-                <form className='row input-form'>
+                <form data-aos='flip-right' className='row input-form'>
                     <div className='col-lg-6 col-md col-sm'>
                     <input type='text' placeholder='Name' className='form-control input-text'/>
                     <input type='email' placeholder='Email' className='form-control input-text'/>

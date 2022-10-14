@@ -8,7 +8,7 @@ const Footer = () => {
         <footer data-aos='fade-up' className='bg-primary'>
             <div className='container'>
                 <div className='row footer-info'>
-                    <div className='col-sm info p-3'>
+                    <div data-aos='fade-right' className='col-sm info p-3'>
                         <h3 className='text-uppercase'>Grid solution</h3>
                         <div class="after-shadow m-0"></div>
                         <p>Cell: +8801711 - 123456</p>
@@ -16,7 +16,7 @@ const Footer = () => {
                         <p>331 E Evelyn Ave</p>
                         <p>Mountain View, CA 94041, USA</p>
                     </div>
-                    <div className='col-sm info p-3'>
+                    <div data-aos='fade-left' className='col-sm info p-3'>
                         <h3 className='text-uppercase'>INFORMATION</h3>
                         <div class="after-shadow m-0"></div>
                         <p>Cell: +8801711 - 123456</p>
@@ -24,7 +24,7 @@ const Footer = () => {
                         <p>331 E Evelyn Ave</p>
                         <p>Mountain View, CA 94041, USA</p>
                     </div>
-                    <div className='col-sm info p-3'>
+                    <div data-aos='fade-right' className='col-sm info p-3'>
                         <h3 className='text-uppercase'>USEFULL LINKS</h3>
                         <div class="after-shadow m-0"></div>
                         <p>Cell: +8801711 - 123456</p>
@@ -32,7 +32,7 @@ const Footer = () => {
                         <p>331 E Evelyn Ave</p>
                         <p>Mountain View, CA 94041, USA</p>
                     </div>
-                    <div className='col-sm info p-3'>
+                    <div data-aos='fade-left' className='col-sm info p-3'>
                         <h3 className='text-uppercase'>BUSINESS HOURSE</h3>
                         <div class="after-shadow m-0"></div>
                         <p>Our Support available to help you 24 hours a day, seven
@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
                 <hr className='my-4'></hr>
                 <div className='copyright text-center'>
-                    <p>Copyright &copy; {currentYear} || BACKTICK SOLUTION LIMITED || All Right Reserved</p>
+                    <p className='m-0'>Copyright &copy; {currentYear} || BACKTICK SOLUTION LIMITED || All Right Reserved</p>
                 </div>
             </div>
         </footer>
