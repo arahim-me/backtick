@@ -19,7 +19,7 @@ const Technologies = () => {
                     Technology.map(tech => {
                         return (
                             <div data-aos='flip-left' className="card col-sm-12 m-3 p-3">
-                                <img data-aos='fade-left' className="card-img-top w-50 mx-auto" src={tech.img} alt="Card image cap" />
+                                <img data-aos='fade-left' className="card-img-top card-img mx-auto" src={tech.img} alt="Card image cap" />
                                 <div className="card-body">
                                     <h5 data-aos='fade-right' className="card-title">{tech.name}</h5>
                                     <p data-aos='fade-left' className="card-text">{tech.description}</p>

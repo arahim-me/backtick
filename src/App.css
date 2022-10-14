@@ -7,3 +7,6 @@
   margin: 1rem auto;
   background: #ffc107;
 }
+.card-img{
+  max-width: 90px;
+}

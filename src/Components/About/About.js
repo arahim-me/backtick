@@ -18,7 +18,7 @@ const About = () => {
                         Ratings.map(rating => {
                             return (
                                 <div data-aos='fade-up' className='rating'>
-                                    <img data-aos='flip-right' src={rating.img} className='img-fluid' />
+                                    <img data-aos='flip-right' src={rating.img} className='img-fluid card-img' />
                                     <h4 data-aos='fade-left' className='text-uppercase'>{rating.percentage}</h4>
                                     <h6 data-aos='fade-right' className='text-uppercase'>{rating.name}</h6>
                                 </div>
