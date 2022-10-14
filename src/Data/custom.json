@@ -3,42 +3,42 @@
         "id": "1",
         "name": "ENTERPRISE APLICATION",
         "title": "Enterprice Of Things",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "description": "Vercel provides customized Enterprise Application Services to ensure a robust experience to your customers (CX), smart relationship management with your customers (CRM), human capital management and supply chain management, i.e. HCM and SCM. Our services help you maintain a highly skilled workforce, and ensure efficient functioning of your operations.",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/enterprise.png"
     },
     {
         "id": "2",
         "name": "STARTUP SOLUTION",
         "title": "Enterprice Of Things",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "description": "We help your business with startup IT solutions which have exceptional technology enabled accelerators, a pool of efficient resources, business models, standardized processes that aid your startup in conceptualization and execution of your business requirements converting them into rewarding endeavors. We provide an all-round support in your journey.",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/startup.png"
     },
     {
         "id": "3",
         "name": "INTERNET OF THINGS",
         "title": "Enterprice Of Things",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "description": "Our IoT helps create a network where different digital components amalgamate and facilitate seamless communication and exchange between individuals and tools, hence. We understand your business needs and formulate bespoke frameworks, and modules to run and maintain the system. We offer end-to-end system integration to manage your business operations.",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/internet.png"
     },
     {
         "id": "4",
         "name": "MOBILE APPLICATION",
         "title": "Enterprice Of Things",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "description": "Our Mobile App solutions are highly customized to your business preferences and goals. Our developers assist in the management and operation of your business across various operating services such as android, IoS, among others using HTML5.",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/mobile.png"
     },
     {
         "id": "5",
         "name": "SAAS DEVELOPMENT",
         "title": "Enterprice Of Things",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "description": "We help with creating cloud-based applications, or Software as a Service (SAAS), which encompasses the entire trajectory of your business. It includes the creation of cover design, development, implementation, testing, maintaining the multi tenancy application, and deployment on the server. The system provides secure hosting, and easy navigation for customers.",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/saas.png"
     },
     {
         "id": "6",
         "name": "B2B & B2C E-COMMERCE",
         "title": "Enterprice Of Things",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat",
+        "description": "We offer sound and reliable Business-to-Business and Business-to-Customer systems for your business through web as well as mobile applications using your Enterprise Resource Planning (ERP) as the information source to offer a guaranteed web store quality through consistent data. Our customizations help you target niche B2B markets, and create personalized experience for the customers.",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/b2b.png"
     }
 ]
