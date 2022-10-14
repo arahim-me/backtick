@@ -2,37 +2,43 @@
     {
         "id": "1",
         "name": "Satisfaction rate",
-        "percentage": "98%",
+        "catagory": "%",
+        "percentage": "98 ",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/diamond.png"
     },
     {
         "id": "2",
         "name": "Sucessful projects",
-        "percentage": "100%",
+        "catagory": "%",
+        "percentage": "100 ",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/roket.png"
     },
     {
         "id": "3",
         "name": "Countries",
-        "percentage": "25",
+        "catagory": "+",
+        "percentage": "25 ",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/country.png"
     },
     {
         "id": "4",
         "name": "Senior engineers",
-        "percentage": "90%",
+        "catagory": "%",
+        "percentage": "90 ",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/roket.png"
     },
     {
         "id": "5",
         "name": "Team members",
-        "percentage": "50+",
+        "catagory": "+",
+        "percentage": "50 ",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/team.png"
     },
     {
         "id": "6",
         "name": "On the market",
-        "percentage": "7 Years",
+        "catagory": "Years",
+        "percentage": "7 ",
         "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/experience.png"
     }
 ]
