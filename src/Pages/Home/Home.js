@@ -7,6 +7,7 @@ import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
 import Navbar from '../../Components/Navbar/Navbar';
 import Subscribe from '../../Components/Subscribe/Subscribe';
+import SuccessStories from '../../Components/SuccessStories/SuccessStories';
 import Technologies from '../../Components/Technologies/Technologies';
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Subscribe></Subscribe>
             <Technologies></Technologies>
             <AllTechnologies></AllTechnologies>
+            <SuccessStories></SuccessStories>
             <About></About>
             <Contacts></Contacts>
             <Footer></Footer>
