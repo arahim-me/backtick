@@ -5,38 +5,49 @@ import './SuccessStories.css';
 
 const SuccessStories = () => {
     return (
-             <div data-aos="fade-up" className='successStories text-center py-4'>
+        <div data-aos="fade-up" className='successStories text-center py-4'>
             <div className='py-4'>
                 <div className='container'>
-                <div className='title'>
-                    <h2 className='text-uppercase text-center'>Success Stories</h2>
-                </div>
-                <div className='after-shadow'></div>
-                <div className='desc'>
-                    <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus eos consectetur est quaerat</p>
-                </div>
+                    <div className='title'>
+                        <h2 className='text-uppercase text-center'>Success Stories</h2>
+                    </div>
+                    <div className='after-shadow'></div>
+                    <div className='desc'>
+                        <p className='text-center'>We have helped several established as well as upcoming businesses gain stronghold and credibility in the market. Our dedicated and skilled workforce is equipped with problem solving strategies which include digital business transformation, and providing customized IT solutions tailored to individual companies and organizations. Our latest success stories are here.
+                        </p>
+                    </div>
                 </div>
                 <Carousel className='slider my-3'>
-                {
-                    Stories.map(story => {
-                        return (
-                            <Carousel.Item className='conatiner col'>
-                                <h3>{story.story}</h3>
-                                <img
-                                    className="img-fluid"
-                                    src={story.img}
-                                    alt="First slide"
-                                />
-                                <Carousel.Caption>
-                                    <h3>{story.name}</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                        )
-                    })
-                }
+                    {
+                        Stories.map(story => {
+                            return (
+                                <Carousel.Item>
+                                    <div className='container'>
+                                        <div className='slideItems'>
+                                            <div clasName='desc'>
+                                                <h6 className='desc mb-4'>"{story.story}"</h6>
+                                            </div>
+                                            <div className='info'>
+                                                <div className='img mx-2'>
+                                                    <img
+                                                        className="circle img-fluid item"
+                                                        src={story.img}
+                                                        alt="First slide"
+                                                    />
+                                                </div>
+                                                <div className='name mx-2 text-end'>
+                                                    <h3 className='item'>{story.name}</h3>
+                                                    <p className='item'>{story.title}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Carousel.Item>
+                            )
+                        })
+                    }
 
-            </Carousel>
+                </Carousel>
             </div>
         </div>
     );

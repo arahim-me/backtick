@@ -1,45 +1,44 @@
 [
     {
         "id": "1",
-        "name": "ENTERPRISE APLICATION",
-        "title": "Enterprice Of Things",
-        "description": "Vercel provides customized Enterprise Application Services to ensure a robust experience to your customers (CX), smart relationship management with your customers (CRM), human capital management and supply chain management, i.e. HCM and SCM. Our services help you maintain a highly skilled workforce, and ensure efficient functioning of your operations.",
-        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/enterprise.png"
+        "name": "Abdur Rahim",
+        "title": "Front End Developer",
+        "story": "By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.",
+        "img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t1.6435-9/122285308_992404017927122_8434560353596215610_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=iuJFidgMr9UAX-w-LiF&tn=YmPpn81DPsfz0anr&_nc_ht=scontent.fdac11-2.fna&oh=00_AT9sedIsV4vOAApZ5ReAbjpDO74rWlaXlgnVZFkCEgngjw&oe=637CDDA3"
     },
     {
         "id": "2",
-        "name": "STARTUP SOLUTION",
-        "title": "Enterprice Of Things",
-        "description": "We help your business with startup IT solutions which have exceptional technology enabled accelerators, a pool of efficient resources, business models, standardized processes that aid your startup in conceptualization and execution of your business requirements converting them into rewarding endeavors. We provide an all-round support in your journey.",
-        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/startup.png"
+        "name": "Rakibul Islam",
+        "title": "Front End Developer",
+        "story": "By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.",
+        "img": "https://cdn-icons-png.flaticon.com/512/300/300221.png"
     },
     {
         "id": "3",
-        "story": "lorem implementation deployment data",
-        "name": "INTERNET OF THINGS",
-        "title": "Enterprice Of Things",
-        "description": "Our IoT helps create a network where different digital components amalgamate and facilitate seamless communication and exchange between individuals and tools, hence. We understand your business needs and formulate bespoke frameworks, and modules to run and maintain the system. We offer end-to-end system integration to manage your business operations.",
-        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/internet.png"
+        "name": "Shakib Khan",
+        "title": "Front End Developer",
+        "story": "By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.",
+        "img": "https://cdn-icons-png.flaticon.com/512/300/300221.png"
     },
     {
         "id": "4",
-        "name": "MOBILE APPLICATION",
-        "title": "Enterprice Of Things",
-        "description": "Our Mobile App solutions are highly customized to your business preferences and goals. Our developers assist in the management and operation of your business across various operating services such as android, IoS, among others using HTML5.",
-        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/mobile.png"
+        "name": "Masud Rana",
+        "title": "Front End Developer",
+        "story": "By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.",
+        "img": "https://cdn-icons-png.flaticon.com/512/300/300221.png"
     },
     {
         "id": "5",
-        "name": "SAAS DEVELOPMENT",
-        "title": "Enterprice Of Things",
-        "description": "We help with creating cloud-based applications, or Software as a Service (SAAS), which encompasses the entire trajectory of your business. It includes the creation of cover design, development, implementation, testing, maintaining the multi tenancy application, and deployment on the server. The system provides secure hosting, and easy navigation for customers.",
-        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/saas.png"
+        "name": "Jubayer Ahmed",
+        "title": "Front End Developer",
+        "story": "By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.",
+        "img": "https://cdn-icons-png.flaticon.com/512/300/300221.png"
     },
     {
         "id": "6",
-        "name": "B2B & B2C E-COMMERCE",
-        "title": "Enterprice Of Things",
-        "description": "We offer sound and reliable Business-to-Business and Business-to-Customer systems for your business through web as well as mobile applications using your Enterprise Resource Planning (ERP) as the information source to offer a guaranteed web store quality through consistent data. Our customizations help you target niche B2B markets, and create personalized experience for the customers.",
-        "img": "https://raw.githubusercontent.com/arahim-me/backtick-db/main/icon/b2b.png"
+        "name": "John Doe",
+        "title": "Front End Developer",
+        "story": "By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.",
+        "img": "https://cdn-icons-png.flaticon.com/512/300/300221.png"
     }
 ]
