@@ -18,15 +18,21 @@ const Custom = () => {
                 </div>
             </div>
             <div className='row'>
-                {                
+                {
                     CustomThings.map(custom => {
-                        return (                            
+                        const image = custom.img;
+                        const name = custom.name;
+                        const description = custom.description;
+                        const sliceDescription = description.lenth > 30 ? description : description.slice(0, 90);
+                        const showMore = description.lenth > 30 ? description : description.slice(90);
+                        return (
                             <div className='col-lg-3 col-md-4 col-sm-12 cards'>
                                 <div data-aos='fade-up' className="card p-2 m-2">
-                                    <img data-aos='flip-right' className="card-img-top card-img mx-auto" src={custom.img} alt="Card image cap" />
+                                    <img data-aos='flip-right' className="card-img-top card-img mx-auto" src={image} alt="Card image cap" />
                                     <div className="card-body">
-                                        <h5 data-aos='fade-right' className="card-title">{custom.name}</h5>
-                                        <p data-aos='fade-left' className="card-desc">{custom.description}</p>
+                                        <h5 data-aos='fade-right' className="card-title">{name}</h5>
+                                        <p data-aos='fade-left' className="card-desc d-inline">{sliceDescription}<span className = "collapse" id="showMore">{showMore}</span></p>
+                                        <span className="btn fw-bold" data-bs-toggle="collapse" data-bs-target="#showMore" aria-expanded="false" aria-controls="showMore">...Read More</span>
                                     </div>
                                 </div>
                             </div>
