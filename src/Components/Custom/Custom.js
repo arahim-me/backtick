@@ -2,6 +2,8 @@ import React from 'react';
 import './Custom.css'
 import CustomThings from '../../Data/custom.json';
 
+
+
 const Custom = () => {
     return (
         <div data-aos='fade-up' className='container my-4'>
@@ -15,15 +17,17 @@ const Custom = () => {
                     </p>
                 </div>
             </div>
-            <div className='d-flex flex-wrap cards'>
-                {
+            <div className='row'>
+                {                
                     CustomThings.map(custom => {
-                        return (
-                            <div data-aos='fade-up' className="card m-3 p-3">
-                                <img data-aos='flip-right' className="card-img-top card-img mx-auto" src={custom.img} alt="Card image cap" />
-                                <div className="card-body">
-                                    <h5 data-aos='fade-right' className="card-title">{custom.name}</h5>
-                                    <p data-aos='fade-left' className="card-text">{custom.description}</p>
+                        return (                            
+                            <div className='col-lg-3 col-md-4 col-sm-12 cards'>
+                                <div data-aos='fade-up' className="card p-2 m-2">
+                                    <img data-aos='flip-right' className="card-img-top card-img mx-auto" src={custom.img} alt="Card image cap" />
+                                    <div className="card-body">
+                                        <h5 data-aos='fade-right' className="card-title">{custom.name}</h5>
+                                        <p data-aos='fade-left' className="card-desc">{custom.description}</p>
+                                    </div>
                                 </div>
                             </div>
                         )

@@ -1,16 +1,45 @@
-.title h2{
+.title h2 {
   font-size: 2.4rem;
 }
-.after-shadow{
+
+.after-shadow {
   width: 150px;
   height: 3px;
   margin: 1rem auto;
   background: #ffc107;
 }
-.card-img{
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.card-img {
   max-width: 90px;
 }
-.desc{
+
+.desc {
   max-width: 768px;
   margin: auto;
+}
+
+.card-img:hover .card-img {
+  transform: rotate(360deg);
+  animation-duration: 0.5s;
+}
+
+.card-img:hover {
+  animation: rotate 0.4s linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
