@@ -25,6 +25,7 @@ const Custom = () => {
                         const description = custom.description;
                         const sliceDescription = description.lenth > 30 ? description : description.slice(0, 90);
                         const showMore = description.lenth > 30 ? description : description.slice(90);
+                        
                         return (
                             <div className='col-lg-3 col-md-4 col-sm-12 cards'>
                                 <div data-aos='fade-up' className="card p-2 m-2">
@@ -40,7 +41,7 @@ const Custom = () => {
                     })
                 }
 
-            </div>
+            </div>            
         </div>
     );
 };
