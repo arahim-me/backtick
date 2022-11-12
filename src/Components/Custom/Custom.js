@@ -6,7 +6,7 @@ import CustomThings from '../../Data/custom.json';
 
 const Custom = () => {
     return (
-        <div data-aos='fade-up' className='container my-4'>
+        <div data-aos='fade-up' className='container my-4' id='custom'>
             <div>
                 <div className='title text-center'>
                     <h2>Custom Things We Do</h2>
@@ -17,9 +17,11 @@ const Custom = () => {
                     </p>
                 </div>
             </div>
-            <div className='row'>
+            <div className='cards'>
                 {
                     CustomThings.map(custom => {
+                        const id = custom.id;
+                        const idName = `#${id}`;
                         const image = custom.img;
                         const name = custom.name;
                         const description = custom.description;
@@ -27,13 +29,13 @@ const Custom = () => {
                         const showMore = description.lenth > 30 ? description : description.slice(90);
                         
                         return (
-                            <div className='col-lg-3 col-md-4 col-sm-12 cards'>
+                            <div className='col-lg-3 col-md-4 col-sm-12'>
                                 <div data-aos='fade-up' className="card p-2 m-2">
                                     <img data-aos='flip-right' className="card-img-top card-img mx-auto" src={image} alt="Card image cap" />
                                     <div className="card-body">
                                         <h5 data-aos='fade-right' className="card-title">{name}</h5>
-                                        <p data-aos='fade-left' className="card-desc d-inline">{sliceDescription}<span className = "collapse" id="showMore">{showMore}</span></p>
-                                        <span className="btn fw-bold" data-bs-toggle="collapse" data-bs-target="#showMore" aria-expanded="false" aria-controls="showMore">...Read More</span>
+                                        <p data-aos='fade-left' className="card-desc d-inline">{sliceDescription}<span className = "collapse" id={id}>{showMore}</span></p>
+                                        <span className="btn fw-bold" data-bs-toggle="collapse" data-bs-target={idName} aria-expanded="false" aria-controls="showMore">...Read More</span>
                                     </div>
                                 </div>
                             </div>

@@ -5,7 +5,7 @@ import './SuccessStories.css';
 
 const SuccessStories = () => {
     return (
-        <div data-aos="fade-up" className='successStories text-center py-4'>
+        <div data-aos="fade-up" className='successStories text-center py-4' id='blogs'>
             <div className='py-4'>
                 <div className='container'>
                     <div className='title'>

@@ -7,7 +7,7 @@ import Submit from '../Submit/Submit'
 const Contacts = () => {
 
     return (
-        <div data-aos="fade-up" className='contacts py-4'>
+        <div data-aos="fade-up" className='contacts py-4' id='contactUs'>
             <div className='container my-4'>
                 <div className='title'>
                     <h2 className='text-uppercase text-center'>Contact Us</h2>

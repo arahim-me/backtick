@@ -11,22 +11,22 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto d-flex justify-content-center align-items-center">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="">SERVICES</a>
+                            <a className="nav-link active" aria-current="page" href="#custom">SERVICES</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="">PORTFOLIO</a>
+                            <a className="nav-link" href="#portfolio">PORTFOLIO</a>
                         </li>                        
                         <li className="nav-item">
-                            <a className="nav-link" href="">ABOUT US</a>
+                            <a className="nav-link" href="#aboutUs">ABOUT US</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="">CONTACTS</a>
+                            <a className="nav-link" href="#subscribe">SUBSCRIBE</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="">BLOGS</a>
+                            <a className="nav-link" href="#blogs">BLOGS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href=""><button className='btn btn-warning px-3'>Get In Touch</button></a>
+                            <a className="nav-link" href="#contactUs"><button className='btn btn-warning px-3'>Get In Touch</button></a>
                         </li>
                     </ul>
                 </div>

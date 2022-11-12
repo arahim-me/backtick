@@ -5,7 +5,7 @@ import ScrollTrigger from 'react-scroll-trigger';
 import CountUp from 'react-countup';
 const About = () => {
     return (
-        <div data-aos="fade-up" className='aboutUs'>
+        <div data-aos="fade-up" className='aboutUs' id='aboutUs'>
             <div className='container py-4'>
                 <div className='title'>
                     <h2 className='text-uppercase text-center'>Who we are</h2>

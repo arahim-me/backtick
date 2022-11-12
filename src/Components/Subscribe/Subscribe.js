@@ -21,7 +21,7 @@ const Subscribe = () => {
         
     };
     return (
-        <div data-aos='fade-up' className='subscribe-section'>
+        <div data-aos='fade-up' className='subscribe-section' id='subscribe'>
             <div className='container'>
                 <div data-aos='fade-left' className='inner-subscribe'>
                     <h4 className='text-uppercase text-center text-white my-3'>Let's describe your projects</h4>
