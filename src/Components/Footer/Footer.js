@@ -9,10 +9,10 @@ const Footer = () => {
             <div className='container'>
                 <div className='row footer-info'>
                     <div data-aos='fade-right' className='col-sm info p-3'>
-                        <h3 className='text-uppercase'>Grid solution</h3>
+                        <h3 className='text-uppercase'>Backtick solution</h3>
                         <div class="after-shadow m-0"></div>
                         <p>Cell: +8801711 - 123456</p>
-                        <p>email: backtick@gmail.co</p>
+                        <p>email: contact@backticksolution.com</p>
                         <p>331 E Evelyn Ave</p>
                         <p>Mountain View, CA 94041, USA</p>
                     </div>
@@ -20,7 +20,7 @@ const Footer = () => {
                         <h3 className='text-uppercase'>INFORMATION</h3>
                         <div class="after-shadow m-0"></div>
                         <p>Cell: +8801711 - 123456</p>
-                        <p>email: backtick@gmail.co</p>
+                        <p>email: support@backticksolution.com</p>
                         <p>331 E Evelyn Ave</p>
                         <p>Mountain View, CA 94041, USA</p>
                     </div>
